@@ -7,7 +7,7 @@ def last_digit(number):
         return (-number)
     last_digit = number % 10
     return last_digit
-The_one = The_one_digit(number)
+The_one = last_digit(number)
 if (The_one > 5):
     print("The_one digit of", number,"is {} and is greater than 5".format(The_one))
 elif (The_one < 6 and The_one != 0):
