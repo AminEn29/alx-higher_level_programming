@@ -9,7 +9,7 @@ def last_digit(number):
     return last_digit
 The_one = last_digit(number)
 if (The_one > 5):
-    print("Last digit  of", number,"is {} and is greater than 5\n".format(The_one))
+    print("Last digit of", number,"is {} and is greater than 5".format(The_one))
 elif (The_one < 6 and The_one != 0):
     print("Last digit of", number,"is {} and is less than 6 and not 0".format(The_one))
 else:
