@@ -3,5 +3,5 @@ def print_list_integer(my_list=[]):
     a, b, c = len(my_list), 0, 0
     for b in range(a):
         c = my_list[b]
-        print("{}".format(c))
+        print("{:d}".format(c))
         b + 1
