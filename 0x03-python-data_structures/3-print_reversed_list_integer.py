@@ -1,4 +1,4 @@
-#!/bin/bash/pythoon 
+#!/usr/bin/pythoon 
 def print_reversed_list_integer(my_list=[]):
     a, c = len(my_list), 0
     for b in range(a):
